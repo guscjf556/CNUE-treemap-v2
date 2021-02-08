@@ -23,7 +23,7 @@ let quizSubmit = {
     return `
     <div class="container mb-5">
         ${quizForm}
-        <a href="quizSelect" class="fixed-bottom btn btn-danger text-light">나무 다시 선택하기</a>
+        <a href="quizSelect" class="fixed-bottom btn btn-danger text-light" rel="noreferrer noopener">나무 다시 선택하기</a>
     </div>
     `
   },
@@ -54,7 +54,7 @@ let quizSubmit = {
     return `
     <div class="container mb-5">
         ${quizForm}
-        <a href="quizSelect" class="fixed-bottom btn btn-danger text-light">새 다시 선택하기</a>
+        <a href="quizSelect" class="fixed-bottom btn btn-danger text-light" rel="noreferrer noopener">새 다시 선택하기</a>
     </div>
     `
   },
@@ -88,7 +88,7 @@ let quizSubmit = {
     return `
     <div class="container mb-5">
         ${quizForm}
-        <a href="quizSelect" class="fixed-bottom btn btn-danger text-light">새 다시 선택하기</a>
+        <a href="quizSelect" class="fixed-bottom btn btn-danger text-light" rel="noreferrer noopener">새 다시 선택하기</a>
     </div>
     `
   }

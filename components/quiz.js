@@ -41,7 +41,7 @@ let quiz = {
     <div class="container">
         ${quizForm}
         <input type="hidden" name="quizItems" value='${JSON.stringify(selectedItemsId)}'>
-        <button type="submit" class="btn btn-danger mx-auto d-block">채점하기</button>
+        <button type="submit" class="btn btn-danger mx-auto d-block">확인하기</button>
       </form>
     </div>
     `
@@ -89,7 +89,7 @@ bird: function(itemInfo, selectedItemsId){
   <div class="container">
       ${quizForm}
       <input type="hidden" name="quizItems" value='${JSON.stringify(selectedItemsId)}'>
-      <button type="submit" class="btn btn-danger mx-auto d-block">채점하기</button>
+      <button type="submit" class="btn btn-danger mx-auto d-block">확인하기</button>
     </form>
   </div>
   `
@@ -139,7 +139,7 @@ birdSound: function(itemInfo, selectedItemsId){
   <div class="container">
       ${quizForm}
       <input type="hidden" name="quizItems" value='${JSON.stringify(selectedItemsId)}'>
-      <button type="submit" class="btn btn-danger mx-auto d-block">채점하기</button>
+      <button type="submit" class="btn btn-danger mx-auto d-block">확인하기</button>
     </form>
   </div>
   `
